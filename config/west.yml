@@ -16,6 +16,7 @@ manifest:
       revision: main
     - name: zmk-rgbled-widget  # <-- new entry
       remote: caksoylar
-      revision: main
+      # pin: main dropped ZMK v0.2 support in d9b8ab6 (2026-02-16)
+      revision: fbe6dde8ffa68fdcded1600a66aa18cf12a796fb
   self:
     path: config
