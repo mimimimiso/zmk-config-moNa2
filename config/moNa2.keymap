@@ -19,64 +19,72 @@
         english {
             bindings = <&kp LANGUAGE_2>;
             key-positions = <22 23>;
-            layers = <1 4>;
+            layers = <4 0>;
             timeout-ms = <35>;
+            require-prior-idle-ms = <0>;
         };
 
         japanese {
             bindings = <&kp LANG1>;
             key-positions = <30 31>;
             timeout-ms = <35>;
-            layers = <1 4>;
+            layers = <4 0>;
         };
 
         MouseRightClick {
             bindings = <&mkp RCLK>;
             key-positions = <18 19>;
             timeout-ms = <35>;
-            layers = <1 2 3 4>;
+            layers = <1 2 3 4 0>;
         };
 
         MouseLeftClick {
             bindings = <&mkp LCLK>;
             key-positions = <17 18>;
             timeout-ms = <35>;
-            layers = <1 2 3 4>;
+            layers = <1 2 3 4 0>;
         };
 
         kakkohajime {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <6 7>;
             timeout-ms = <35>;
-            layers = <1 4>;
+            layers = <4 0>;
         };
 
         kakkotoji {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <7 8>;
             timeout-ms = <35>;
-            layers = <1 4>;
+            layers = <4 0>;
         };
 
         at {
             bindings = <&kp AT>;
             key-positions = <11 12>;
             timeout-ms = <35>;
-            layers = <1 4>;
+            layers = <4 0>;
         };
 
         grater {
             bindings = <&kp GT>;
             key-positions = <1 2>;
             timeout-ms = <35>;
-            layers = <1 4>;
+            layers = <4 0>;
         };
 
         dblqo {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <12 13>;
             timeout-ms = <35>;
-            layers = <1 4>;
+            layers = <4 0>;
+        };
+
+        question {
+            bindings = <&kp QUESTION>;
+            key-positions = <8 9>;
+            timeout-ms = <35>;
+            layers = <4 0>;
         };
     };
 
@@ -113,8 +121,8 @@
 
         default_layer {
             bindings = <
-&kp Q         &kp L   &kp U             &kp COMMA  &kp PERIOD                                         &kp F     &kp W  &kp R  &kp Y  &kp H
-&kp E         &kp I   &kp A             &kp O      &kp MINUS                          &kp QUESTION    &kp K     &kp T  &kp N  &kp S  &kp P
+&kp Q         &kp L   &kp U             &kp COMMA  &kp PERIOD                                         &kp F     &kp W  &kp R  &kp Y  &kp P
+&kp E         &kp I   &kp A             &kp O      &kp MINUS                          &kp EXCL        &kp K     &kp T  &kp N  &kp S  &kp H
 &kp Z         &kp X   &kp C             &kp V      &kp HASH         &kp APOSTROPHE    &kp UNDERSCORE  &kp G     &kp D  &kp M  &kp J  &kp B
 &kp LEFT_ALT  &kp AT  &kp GREATER_THAN  &kp LCTRL  &lt 2 BACKSPACE  &lt 1 SPACE       &lt 3 ENTER     &lt 4 F7                       &kp HASH
             >;
@@ -152,7 +160,7 @@
         layer_4 {
             bindings = <
 &kp LS(Q)  &kp LS(L)  &kp LS(U)  &kp COMMA  &kp PERIOD                                           &kp LS(F)  &kp LS(W)  &kp LS(R)  &kp LS(Y)  &kt LS(P)
-&kp LS(E)  &kt LS(I)  &kp LS(I)  &kp LS(A)  &kt MINUS                            &kp QUESTION    &kp LS(K)  &kp LS(T)  &kp LS(N)  &kp LS(S)  &kp LS(H)
+&kp LS(E)  &kt LS(I)  &kp LS(A)  &kp LS(O)  &kt MINUS                            &kp QUESTION    &kp LS(K)  &kp LS(T)  &kp LS(N)  &kp LS(S)  &kp LS(H)
 &kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(V)  &kp DOUBLE_QUOTES  &kp APOSTROPHE    &kp UNDERSCORE  &kp LS(G)  &kp LS(D)  &kp LS(M)  &kp LS(J)  &kp LS(B)
 &trans     &trans     &trans     &trans     &kp BACKSPACE      &kp SPACE         &trans          &trans                                      &kp ESCAPE
             >;
