@@ -61,7 +61,7 @@
 
         at {
             bindings = <&kp AT>;
-            key-positions = <11 12>;
+            key-positions = <3 2>;
             timeout-ms = <35>;
             layers = <4 0>;
         };
@@ -146,6 +146,8 @@
 &kp MINUS     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS    &trans    &trans  &trans  &trans        &trans        &trans        &trans
 &trans        &trans        &trans        &trans        &trans      &trans    &trans  &trans                                            &trans
             >;
+
+            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_3 {
@@ -155,11 +157,13 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                 &trans
             >;
+
+            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_4 {
             bindings = <
-&kp LS(Q)  &kp LS(L)  &kp LS(U)  &kp COMMA  &kp PERIOD                                           &kp LS(F)  &kp LS(W)  &kp LS(R)  &kp LS(Y)  &kt LS(P)
+&kp LS(Q)  &kp LS(L)  &kp LS(U)  &kp COMMA  &kp PERIOD                                           &kp LS(F)  &kp LS(W)  &kp LS(R)  &kp LS(Y)  &kp LS(P)
 &kp LS(E)  &kp LS(I)  &kp LS(A)  &kp LS(O)  &kp MINUS                            &kp QUESTION    &kp LS(K)  &kp LS(T)  &kp LS(N)  &kp LS(S)  &kp LS(H)
 &kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(V)  &kp DOUBLE_QUOTES  &kp APOSTROPHE    &kp UNDERSCORE  &kp LS(G)  &kp LS(D)  &kp LS(M)  &kp LS(J)  &kp LS(B)
 &trans     &trans     &trans     &trans     &kp BACKSPACE      &kp SPACE         &trans          &trans                                      &kp ESCAPE
