@@ -131,9 +131,9 @@
 
         default_layer {
             bindings = <
-&kp Q         &kp L   &kp U             &kp COMMA  &kp PERIOD                                         &kp F     &kp W  &kp R  &kp Y  &kp P
-&kp E         &kp I   &kp A             &kp O      &kp MINUS                          &kp EXCL        &kp K     &kp T  &kp N  &kp S  &kp H
-&kp Z         &kp X   &kp C             &kp V      &kp HASH         &kp APOSTROPHE    &kp UNDERSCORE  &kp G     &kp D  &kp M  &kp J  &kp B
+&kp Q         &kp L   &kp U             &kp COMMA  &kp PERIOD                                            &kp F     &kp W  &kp R  &kp Y  &kp P
+&kp E         &kp I   &kp A             &kp O      &kp MINUS                             &kp EXCL        &kp K     &kp T  &kp N  &kp S  &kp H
+&kp Z         &kp X   &kp C             &kp V      &kp HASH            &kp APOSTROPHE    &kp UNDERSCORE  &kp G     &kp D  &kp M  &kp J  &kp B
 &kp LEFT_ALT  &kp AT  &kp GREATER_THAN  &kp LCTRL  &lt_bs 2 BACKSPACE  &lt 1 SPACE       &lt 3 ENTER     &lt 4 F7                       &kp HASH
             >;
 
@@ -143,7 +143,7 @@
         layer_1 {
             bindings = <
 &kp LG(D)        &kp LC(Z)          &kp LC(Y)  &kp LC(ENTER)            &kp LG(V)                      &kp LG(TAB)  &trans  &trans  &trans  &kp LA(F4)
-&kp LC(LS(G))    &kp LC(G)          &kp LC(V)  &kp F22                  &kp LG(F22)            &trans  &trans       &trans  &trans  &trans  &trans
+&kp LC(LS(G))    &kp LC(G)          &kp LC(V)  &kp F22                  &kp LG(TAB)            &trans  &trans       &trans  &trans  &trans  &trans
 &kp LS(LC(DOT))  &kp LC(LS(COMMA))  &kp LC(C)  &kp LS(LG(RIGHT_ARROW))  &kp ENTER    &trans    &trans  &trans       &trans  &trans  &trans  &trans
 &trans           &trans             &trans     &trans                   &trans       &trans    &trans  &trans                               &trans
             >;
