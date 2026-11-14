@@ -142,10 +142,10 @@
 
         layer_1 {
             bindings = <
-&kp LG(D)        &kp LC(Z)          &kp LC(Y)  &kp LC(ENTER)            &kp LG(V)                      &kp LG(TAB)  &trans  &trans  &trans  &kp LA(F4)
-&kp LC(LS(G))    &kp LC(G)          &kp LC(V)  &kp F22                  &kp LG(TAB)            &trans  &trans       &trans  &trans  &trans  &trans
-&kp LS(LC(DOT))  &kp LC(LS(COMMA))  &kp LC(C)  &kp LS(LG(RIGHT_ARROW))  &kp ENTER    &trans    &trans  &trans       &trans  &trans  &trans  &trans
-&trans           &trans             &trans     &trans                   &trans       &trans    &trans  &trans                               &trans
+&kp LG(D)        &kp LC(Z)          &kp LC(Y)  &kp LC(ENTER)            &kp LG(V)                       &kp LG(TAB)  &trans  &trans  &trans  &kp LA(F4)
+&kp LC(LS(G))    &kp LC(G)          &kp LC(V)  &kp F22                  &kp LG(TAB)             &trans  &trans       &trans  &trans  &trans  &trans
+&kp LS(LC(DOT))  &kp LC(LS(COMMA))  &kp LC(C)  &kp LS(LG(RIGHT_ARROW))  &kp LEFT_GUI  &trans    &trans  &trans       &trans  &trans  &trans  &trans
+&trans           &trans             &trans     &trans                   &trans        &trans    &trans  &trans                               &trans
             >;
         };
 
