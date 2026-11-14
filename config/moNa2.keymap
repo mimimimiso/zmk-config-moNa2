@@ -35,14 +35,14 @@
             bindings = <&mkp RCLK>;
             key-positions = <18 19>;
             timeout-ms = <35>;
-            layers = <1 2 3 4 0>;
+            layers = <0 1 2 3 4 5>;
         };
 
         MouseLeftClick {
             bindings = <&mkp LCLK>;
             key-positions = <17 18>;
             timeout-ms = <35>;
-            layers = <1 2 3 4 0>;
+            layers = <0 1 2 3 4 5>;
         };
 
         kakkohajime {
