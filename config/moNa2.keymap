@@ -132,19 +132,19 @@
 
         layer_1 {
             bindings = <
-&kp LG(D)                &kp LC(Z)          &kp LC(Y)    &kp LC(ENTER)  &trans                       &kp LG(TAB)  &trans  &trans  &trans  &kp LA(F4)
-&kp LC(LS(G))            &kp LC(G)          &kp LG(TAB)  &kp F22        &kp LG(V)            &trans  &trans       &trans  &trans  &trans  &trans
-&kp LS(LC(DOT))          &kp LC(LS(COMMA))  &kp LC(C)    &kp LC(V)      &kp ENTER  &trans    &trans  &trans       &trans  &trans  &trans  &trans
-&kp LG(LS(RIGHT_ARROW))  &trans             &trans       &trans         &trans     &trans    &trans  &trans                               &trans
+&kp LG(D)        &kp LC(Z)          &kp LC(Y)  &kp LC(ENTER)            &kp LG(V)                      &kp LG(TAB)  &trans  &trans  &trans  &kp LA(F4)
+&kp LC(LS(G))    &kp LC(G)          &kp LC(V)  &kp F22                  &kp LG(F22)            &trans  &trans       &trans  &trans  &trans  &trans
+&kp LS(LC(DOT))  &kp LC(LS(COMMA))  &kp LC(C)  &kp LS(LG(RIGHT_ARROW))  &kp ENTER    &trans    &trans  &trans       &trans  &trans  &trans  &trans
+&trans           &trans             &trans     &trans                   &trans       &trans    &trans  &trans                               &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&kp COLON        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SLASH                     &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans
-&kp KP_NUMBER_0  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kt PERIOD            &trans  &trans  &trans        &trans        &trans        &trans
-&kp MINUS        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kt PLUS    &trans    &trans  &trans  &trans        &trans        &trans        &trans
-&trans           &trans           &trans           &trans           &trans      &trans    &trans  &trans                                            &trans
+&kp COLON     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH                     &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans
+&kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD            &trans  &trans  &trans        &trans        &trans        &trans
+&kp MINUS     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS    &trans    &trans  &trans  &trans        &trans        &trans        &trans
+&trans        &trans        &trans        &trans        &trans      &trans    &trans  &trans                                            &trans
             >;
         };
 
@@ -160,7 +160,7 @@
         layer_4 {
             bindings = <
 &kp LS(Q)  &kp LS(L)  &kp LS(U)  &kp COMMA  &kp PERIOD                                           &kp LS(F)  &kp LS(W)  &kp LS(R)  &kp LS(Y)  &kt LS(P)
-&kp LS(E)  &kt LS(I)  &kp LS(A)  &kp LS(O)  &kt MINUS                            &kp QUESTION    &kp LS(K)  &kp LS(T)  &kp LS(N)  &kp LS(S)  &kp LS(H)
+&kp LS(E)  &kp LS(I)  &kp LS(A)  &kp LS(O)  &kp MINUS                            &kp QUESTION    &kp LS(K)  &kp LS(T)  &kp LS(N)  &kp LS(S)  &kp LS(H)
 &kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(V)  &kp DOUBLE_QUOTES  &kp APOSTROPHE    &kp UNDERSCORE  &kp LS(G)  &kp LS(D)  &kp LS(M)  &kp LS(J)  &kp LS(B)
 &trans     &trans     &trans     &trans     &kp BACKSPACE      &kp SPACE         &trans          &trans                                      &kp ESCAPE
             >;
