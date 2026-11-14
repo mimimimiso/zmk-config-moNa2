@@ -98,6 +98,16 @@
     };
 
     behaviors {
+        lt_bs: lt_bs {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LT_BACKSPACE";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <200>;
+            bindings = <&mo>, <&kp>;
+        };
+
         lt_to_layer_0: lt_to_layer_0 {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_TO_0";
@@ -124,7 +134,7 @@
 &kp Q         &kp L   &kp U             &kp COMMA  &kp PERIOD                                         &kp F     &kp W  &kp R  &kp Y  &kp P
 &kp E         &kp I   &kp A             &kp O      &kp MINUS                          &kp EXCL        &kp K     &kp T  &kp N  &kp S  &kp H
 &kp Z         &kp X   &kp C             &kp V      &kp HASH         &kp APOSTROPHE    &kp UNDERSCORE  &kp G     &kp D  &kp M  &kp J  &kp B
-&kp LEFT_ALT  &kp AT  &kp GREATER_THAN  &kp LCTRL  &lt 2 BACKSPACE  &lt 1 SPACE       &lt 3 ENTER     &lt 4 F7                       &kp HASH
+&kp LEFT_ALT  &kp AT  &kp GREATER_THAN  &kp LCTRL  &lt_bs 2 BACKSPACE  &lt 1 SPACE       &lt 3 ENTER     &lt 4 F7                       &kp HASH
             >;
 
             sensor-bindings = <&scroll_up_down>;
