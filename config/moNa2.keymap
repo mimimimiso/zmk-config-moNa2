@@ -61,7 +61,7 @@
 
         at {
             bindings = <&kp AT>;
-            key-positions = <3 2>;
+            key-positions = <12 11>;
             timeout-ms = <35>;
             layers = <4 0>;
         };
@@ -131,10 +131,10 @@
 
         default_layer {
             bindings = <
-&kp Q         &kp L   &kp U             &kp COMMA  &kp PERIOD                                            &kp F     &kp W  &kp R  &kp Y  &kp P
-&kp E         &kp I   &kp A             &kp O      &kp MINUS                             &kp EXCL        &kp K     &kp T  &kp N  &kp S  &kp H
-&kp Z         &kp X   &kp C             &kp V      &kp HASH            &kp APOSTROPHE    &kp UNDERSCORE  &kp G     &kp D  &kp M  &kp J  &kp B
-&kp LEFT_ALT  &kp AT  &kp GREATER_THAN  &kp LCTRL  &lt_bs 2 BACKSPACE  &lt 1 SPACE       &lt 3 ENTER     &lt 4 F7                       &kp HASH
+&kp Q         &kp L     &kp U             &kp COMMA  &kp PERIOD                                            &kp F     &kp W  &kp R  &kp Y  &kp P
+&kp E         &kp I     &kp A             &kp O      &kp MINUS                             &kp EXCL        &kp K     &kp T  &kp N  &kp S  &kp H
+&kp Z         &kp X     &kp C             &kp V      &kp HASH            &kp APOSTROPHE    &kp UNDERSCORE  &kp G     &kp D  &kp M  &kp J  &kp B
+&kp LEFT_ALT  &kp HASH  &kp GREATER_THAN  &kp LCTRL  &lt_bs 2 BACKSPACE  &lt 1 SPACE       &lt 3 ENTER     &lt 4 F7                       &kp ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
