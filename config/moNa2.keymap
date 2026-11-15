@@ -86,6 +86,13 @@
             timeout-ms = <35>;
             layers = <4 0>;
         };
+
+        asterisk {
+            bindings = <&kp ASTERISK>;
+            key-positions = <2 3>;
+            timeout-ms = <35>;
+            layers = <4 0>;
+        };
     };
 
     macros {
