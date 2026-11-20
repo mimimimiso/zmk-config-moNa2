@@ -19,7 +19,7 @@
         english {
             bindings = <&kp LANGUAGE_2>;
             key-positions = <22 23>;
-            layers = <4 0>;
+            layers = <0>;
             timeout-ms = <35>;
             require-prior-idle-ms = <0>;
         };
@@ -28,7 +28,7 @@
             bindings = <&kp LANG1>;
             key-positions = <30 31>;
             timeout-ms = <35>;
-            layers = <4 0>;
+            layers = <0>;
         };
 
         MouseRightClick {
@@ -49,49 +49,56 @@
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <6 7>;
             timeout-ms = <35>;
-            layers = <4 0>;
+            layers = <0>;
         };
 
         kakkotoji {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <7 8>;
             timeout-ms = <35>;
-            layers = <4 0>;
+            layers = <0>;
         };
 
         at {
             bindings = <&kp AT>;
             key-positions = <12 11>;
             timeout-ms = <35>;
-            layers = <4 0>;
+            layers = <0>;
         };
 
         grater {
             bindings = <&kp GT>;
             key-positions = <1 2>;
             timeout-ms = <35>;
-            layers = <4 0>;
+            layers = <0>;
         };
 
         dblqo {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <12 13>;
             timeout-ms = <35>;
-            layers = <4 0>;
+            layers = <0>;
         };
 
         question {
             bindings = <&kp QUESTION>;
+            key-positions = <16 17>;
+            timeout-ms = <35>;
+            layers = <0>;
+        };
+
+        scroll_hold {
+            bindings = <&mo SCROLL>;
             key-positions = <19 20>;
             timeout-ms = <35>;
-            layers = <4 0>;
+            layers = <0 MOUSE>;
         };
 
         asterisk {
             bindings = <&kp ASTERISK>;
             key-positions = <2 3>;
             timeout-ms = <35>;
-            layers = <4 0>;
+            layers = <0>;
         };
     };
 
@@ -151,14 +158,14 @@
             bindings = <
 &kp LG(D)        &kp LC(Z)          &kp LC(Y)  &kp LS(ENTER)            &kp LG(V)                       &kp LG(TAB)  &trans  &trans  &trans  &kp LA(F4)
 &kp LC(LS(G))    &kp LC(G)          &kp LC(V)  &kp F22                  &kp LG(TAB)             &trans  &trans       &trans  &trans  &trans  &trans
-&kp LS(LC(DOT))  &kp LC(LS(COMMA))  &kp LC(C)  &kp LS(LG(RIGHT_ARROW))  &kp LEFT_GUI  &trans    &trans  &trans       &trans  &trans  &trans  &trans
+&kp LC(LS(COMMA))  &kp LS(LC(DOT))  &kp LC(C)  &kp LS(LG(RIGHT_ARROW))  &kp LEFT_GUI  &trans    &trans  &trans       &trans  &trans  &trans  &trans
 &trans           &trans             &trans     &trans                   &trans        &trans    &trans  &trans                               &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&kp COLON     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH                     &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans
+&kp COLON     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_SLASH                  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans
 &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD            &trans  &trans  &trans        &trans        &trans        &trans
 &kp MINUS     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS    &trans    &trans  &trans  &trans        &trans        &trans        &trans
 &trans        &trans        &trans        &trans        &trans      &trans    &trans  &trans                                            &trans
